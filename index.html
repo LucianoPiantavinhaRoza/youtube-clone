@@ -4,16 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Youtube</title>
+  <!-- ROBOTO -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- INTER -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
 
-  <nav>
+  <div class="top">
 
     <div class="left--header">
-      <img src="./assets/icons/hamburger.svg" class="menu--icon" alt="Ícone do menu.">
+      <img src="./assets/icons/hamburger.svg" onclick="toggleMenu()" class="menu--icon" alt="Ícone do menu.">
       <img src="./assets/icons/Logo.png" class="menu--logo" alt="Logo do youtube.">
     </div>
 
@@ -34,7 +45,46 @@
       <img src="./assets/icons/avatar-desktop.svg" class="icon--avatar" alt="Imagem do usuário.">
     </div>
 
-  </nav>
+  </div>
+
+  <div class="side--menu" id="sideMenu">
+
+    <nav>
+
+      <div class="btn--nav">
+        <br>
+        <img src="./assets/icons/home.svg" alt="ícone de casa.">
+        <label class="btn--name">Home</label>
+      </div>
+  
+      <div class="btn--nav">
+        <img src="./assets/icons/shots.svg" alt="ícone de raio.">
+        <label class="btn--name">Shorts</label>
+      </div>
+  
+      <div class="btn--nav">
+        <img src="./assets/icons/subscriptions.svg" alt="ícone de canal do youtube.">
+        <label class="btn--name">Subscriptions</label>
+      </div>
+  
+      <div class="btn--nav">
+        <img src="./assets/icons/library.svg" alt="ícone de dois players de musica sobrescritos.">
+        <label class="btn--name">Library</label>
+      </div>
+  
+    </nav>
+
+  </div>
+
+
+  <script>
+
+    function toggleMenu() {
+      const sideMenu = document.querySelector('#sideMenu');
+      sideMenu.style.display = sideMenu.style.display === "" ? "none" : "";
+    };
+
+  </script>
 
 </body>
 
