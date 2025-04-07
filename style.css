@@ -159,3 +159,94 @@ nav {
   margin-top: 8px;
   margin-left: 2px;
 }
+
+/* -------------------------------------------------- BANNER -------------------------------------------------- */
+
+.banner {
+  width: 100%;
+  background-color: #912DF5;
+}
+
+/* -------------------------------------------------- MIDDLE -------------------------------------------------- */
+
+.middle--container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.top--middle {
+  width: 950px;
+  margin-top: 25px;
+}
+
+.infos--channel {
+  display: flex;
+  height: 148px;
+}
+
+.infos--channel--left {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+}
+
+.avatar--channel {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  background-color: #912DF5;
+}
+
+.name--channel--container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;;
+}
+
+.name--channel {
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 5px;
+}
+
+.subscribers--number {
+  color: #888888;
+  font-family: Roboto;
+  font-size: 17.6px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.name--and--check--icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.infos--channel--right {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.subscribe {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  gap: 8px;
+  border-radius: 65px;
+  outline: 0;
+  cursor: pointer;
+  background-color: #FFFFFF;
+}

@@ -25,7 +25,7 @@
 
     <div class="left--header">
       <img src="./assets/icons/hamburger.svg" onclick="toggleMenu()" class="menu--icon" alt="Ícone do menu.">
-      <img src="./assets/icons/Logo.png" class="menu--logo" alt="Logo do youtube.">
+      <img src="./assets/icons/logo.png" class="menu--logo" alt="Logo do youtube.">
     </div>
 
     <div class="center--header">
@@ -47,9 +47,9 @@
 
   </div>
 
-  <div class="side--menu" id="sideMenu">
+  <div class="side--menu">
 
-    <nav>
+    <nav id="sideMenu">
 
       <div class="btn--nav">
         <br>
@@ -58,7 +58,7 @@
       </div>
   
       <div class="btn--nav">
-        <img src="./assets/icons/shots.svg" alt="ícone de raio.">
+        <img src="./assets/icons/shorts.svg" alt="ícone de raio.">
         <label class="btn--name">Shorts</label>
       </div>
   
@@ -74,6 +74,30 @@
   
     </nav>
 
+    <div class="banner"></div>
+
+  </div>
+
+  <div class="middle--container">
+    <!-- <h1>Container</h1> -->
+    <div class="top--middle">
+      <!-- <h2>Top</h2> -->
+      <div class="infos--channel">
+        <div class="infos--channel--left">
+          <div class="avatar--channel"></div>
+          <div class="name--channel--container">
+            <div class="name--and--check--icon">
+              <h1 class="name--channel">Youtube Channel</h1>
+              <img src="./assets/icons/check-circle-1.svg" alt="Gray checked icon.">
+            </div>
+            <label for="subscribersNumber" class="subscribers--number">5.5M subscribers</label>
+          </div>
+        </div>
+        <div class="infos--channel--right">
+          <button class="subscribe">Subscribe</button>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="./script.js"></script>
