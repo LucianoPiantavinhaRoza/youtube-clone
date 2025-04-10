@@ -272,6 +272,11 @@ nav {
   cursor: pointer;
 }
 
+.lupe {
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .selected--menu--item {
   border-bottom: 2px solid #9A9A9A;
 }
@@ -339,4 +344,78 @@ nav {
 
 .description--link {
   color: #4994FF;
+}
+
+.video--list--1--container, .video--list--2--container {
+  height: 251px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.newest--videos {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  color: #FFFFFF;
+}
+
+.newest--videos p {
+  color: #9A9A9A;
+}
+
+.newest--videos--play--all {
+  margin-left: 50px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.video--list--1, .video--list--2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
+
+.video--title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 17px;
+  width: 128px;
+  height: 21px;
+  color: #FFFFFF;
+}
+
+.channel--name--checked {
+  display: flex;
+  gap: 5px;
+}
+
+.video--channel--name {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  width: 105px;
+  height: 24px;
+  line-height: 150%;
+  color: #9A9A9A;
+}
+
+.video--views {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  width: 180px;
+  height: 24px;
+  line-height: 150%;
+  color: #9A9A9A;
 }
