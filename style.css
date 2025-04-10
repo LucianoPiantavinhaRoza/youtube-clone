@@ -279,3 +279,64 @@ nav {
 .menu--lupe {
   width: 20%;
 }
+
+.trailer--container {
+  width: 862px;
+  height: 124px;
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.trailer--video {
+  display: flex;
+  flex: 1;
+}
+
+.video--trailer {
+  width: 210px;
+}
+
+.trailer--infos {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+}
+
+.title--trailer {
+  font-family: Roboto;
+  width: 230px;
+  height: 23px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.views--trailer {
+  font-family: Roboto;
+  font-weight: 170px;
+  height: 14px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 8px;
+  line-height: normal;
+  color: #8F8F8F;
+}
+
+.description--trailer {
+  font-family: Roboto;
+  width: 622px;
+  height: 63px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 8px;
+  line-height: 150%;
+  color: #EFEFEF;
+}
+
+.description--link {
+  color: #4994FF;
+}
